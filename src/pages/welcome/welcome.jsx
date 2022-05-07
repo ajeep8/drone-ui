@@ -61,15 +61,13 @@ export default function Welcome() {
         </div>
         <div className={cx('header')}>
           <h1 className={cx('title')}>
-            Hello,
-            <br />
-            Welcome to Drone.
+            欢迎使用 Drone.
           </h1>
           {error}
-          <p>You will be redirected to your source control management system to authenticate.</p>
+          <p>你将被重定向到Gitea登录界面登录</p>
         </div>
         <a href="/login" target="_self" className={cx('btn')}>
-          <span>Continue</span>
+          <span>继续</span>
           <ChevronDownIcon className={cx('chevron-right')} />
         </a>
       </div>
